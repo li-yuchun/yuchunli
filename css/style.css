@@ -84,7 +84,7 @@ h5 {
 }
 
 .yu-experience {
-  background-color: #914717;
+  background-color: #ececec;
 }
 
 .yu-contact {
@@ -113,6 +113,30 @@ h5 {
 
 @media (max-width: 360px) {
   .yu-pkv-title-underline {
+    width: 100%;
+  }
+}
+
+.yu-pkv2 {
+  
+  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6)),url('../pictures/harbour/banner.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  box-sizing: border-box;
+  padding-top: 33vh;
+  
+}
+
+.yu-pkv2-title-underline {
+  height: 3px;
+  width: 20%;
+}
+
+
+
+@media (max-width: 360px) {
+  .yu-pkv2-title-underline {
     width: 100%;
   }
 }
